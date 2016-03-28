@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">App Delay</string>
+
+    <string name="amount">Select the amount of time before app starts:</string>
+    <string name="hours">Hours</string>
+    <string name="dots" translatable="false">:</string>
+    <string name="mins">Minutes</string>
+    <string name="secs">Seconds</string>
+    <string name="choose">Start app</string>
+    <string name="name">ListViewBaseAdapter</string>
+    <string name="image">Thumbnail</string>
+    <string name="title_activity_set">Set Time</string>
+    <string name="set">SET</string>
+    <string name="chooseapp">Choose an app to launch</string>
+    <string name="wait">Set Timer</string>
+    <string name="launched">The application will be launched</string>
+    <string name="failed">Failed to launch app</string>
+    <string name="time_left">Starting </string>
+    <string name="Dismiis">Dismiss</string>
+    <string name="stop">Stop app launch</string>
+    <string name="launchpromptly">App Delay will launch app promptly</string>
+    <string name="removetask">Removing App Delay from recents might prevent it from launching app - App Delay</string>
+    <string name="disclaimer">Note: app will not be launched if phone is restarted</string>
+    <string name="errRetriving">Error retrieving full information for selcted app</string>
+    <string name="err">An error occurred</string>
+    <string name="welcome">Welcome to App Delay</string>
+    <string name="intro">It is used to delay an application\'s launch</string>
+    <string name="first">First pick an App</string>
+    <string name="second">Then set the timer</string>
+    <string name="or">Or set the date</string>
+    <string name="notification">You will get a notification</string>
+    <string name="notifdesc">This notification will count down until the app\'s launch</string>
+    <string name="ordesc">Set the date and time for the app launch</string>
+    <string name="seconddesc">Set the timer before the app launches</string>
+    <string name="firstdesc">The chosen app will be started after a set interval on the next screen</string>
+    <string name="Date">Date</string>
+    <string name="Countdown">Countdown</string>
+    <string name="Name">Name</string>
+    <string name="sDate">Set Date</string>
+    <string name="sTime">Set Time</string>
+</resources>

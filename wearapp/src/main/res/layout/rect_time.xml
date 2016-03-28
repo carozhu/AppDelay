@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/horizontalScrollView"
+    android:layout_gravity="bottom"
+    tools:context=".TimeActivity"
+    tools:deviceIds="wear_square"
+    android:scrollIndicators="bottom"
+    android:background="#bdbdbd">
+
+       <RelativeLayout
+       android:orientation="horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent">
+
+           <NumberPicker
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/numberPicker"
+               android:layout_above="@+id/space"
+               android:layout_alignParentTop="true" />
+
+        <NumberPicker
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/numberPicker2"
+       android:layout_alignParentTop="true"
+       android:layout_toEndOf="@+id/numberPicker"
+            android:layout_above="@+id/space" />
+
+        <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker3"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/numberPicker2"
+        android:layout_alignBottom="@+id/numberPicker2" />
+
+           <ImageView
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:id="@+id/imageView2"
+           android:layout_gravity="center_vertical"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentBottom="true"
+               android:layout_toStartOf="@+id/relativeLayout" />
+
+           <Space
+               android:layout_width="fill_parent"
+               android:layout_height="25px"
+               android:layout_alignParentBottom="true"
+               android:layout_toStartOf="@+id/numberPicker2"
+               android:layout_alignParentEnd="true"
+               android:id="@+id/space" />
+
+           <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/relativeLayout"
+               android:layout_centerVertical="true"
+               android:layout_toEndOf="@+id/numberPicker3"
+               android:background="@drawable/cards">
+
+               <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/placeholdeer"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:gravity="center"
+                   android:layout_alignParentTop="true"
+                   android:layout_centerHorizontal="true"
+                   android:textColor="#9e9e9e" />
+
+               <Button
+                   style="?android:attr/buttonStyleSmall"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/exit"
+                   android:id="@+id/back"
+                   android:layout_below="@+id/button"
+                   android:layout_centerHorizontal="true" />
+
+               <Button
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/start"
+                   android:id="@+id/button"
+                   android:layout_gravity="center_vertical"
+                   android:layout_below="@+id/textView"
+                   android:layout_centerHorizontal="true" />
+
+           </RelativeLayout>
+
+       </RelativeLayout>
+</HorizontalScrollView>

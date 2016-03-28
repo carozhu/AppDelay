@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App Delay</string>
+    <string name="launching">Launching </string>
+    <string name="in"> in: </string>
+    <string name="failed">failed to launch app</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="stop">Stop</string>
+    <string name="willbe">app will be launched</string>
+    <string name="start">Start app</string>
+    <string name="long_press_intro">Long press to exit app</string>
+    <string name="exit">exit</string>
+    <string name="placeholdeer">name</string>
+    <string name="errinfo">error retrieving full information</string>
+    <string name="err">Error getting app information</string>
+</resources>

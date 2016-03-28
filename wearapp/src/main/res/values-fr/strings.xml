@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Delay</string>
+    <string name="dismiss">rejeter</string>
+    <string name="exit">Sortir</string>
+    <string name="failed">Erreur</string>
+    <string name="in"> En: </string>
+    <string name="placeholdeer">Nom</string>
+    <string name="start">Commence l\'application</string>
+    <string name="stop">Arrête l\'application</string>
+    <string name="willbe">Appliaction aura commencer</string>
+    <string name="long_press_intro">Appui long pour sortir de l\'application</string>
+    <string name="launching">Commence en </string>
+    <string name="err">Erreur </string>
+    <string name="errinfo">Erreur</string>
+</resources>

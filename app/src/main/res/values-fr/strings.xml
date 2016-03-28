@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Delay</string>
+    <string name="Dismiis">Rejeter</string>
+    <string name="action_launch"></string>
+    <string name="welcome">Bienvenue au App Delay</string>
+    <string name="wait">Déterminez Temps</string>
+    <string name="title_activity_set">Déterminez Temps</string>
+    <string name="time_left">Commence </string>
+    <string name="stop">Arrete le commnecement de l\'application </string>
+    <string name="set">CHOISIR</string>
+    <string name="secs">Secondes</string>
+    <string name="seconddesc">Détermine le temps avant l\'application commence</string>
+    <string name="second">Puis détermine le compter</string>
+    <string name="removetask">Ça peut causer des problèmes -App Delay</string>
+    <string name="ordesc">Détermine la date et temps pour le commencement de l\'application</string>
+    <string name="or">Ou détermine la date</string>
+    <string name="notification">Vous auriez reçevoir une notification</string>
+    <string name="notifdesc">Cette notrification comptera le temps restante</string>
+    <string name="name">ListViewBaseAdapter</string>
+    <string name="mins">Minutes</string>
+    <string name="launchpromptly">App Delay commencera votre application sans délai</string>
+    <string name="launched">Cette application aura commencer</string>
+    <string name="intro">C\'est utiliser pour retarder le commencement d\'une application</string>
+    <string name="image">Image</string>
+    <string name="hours">Heures</string>
+    <string name="firstdesc">L\'application choisie aura commencer après un intervalle sur l\'écran suivant</string>
+    <string name="first">Premierment choisissez une application</string>
+    <string name="failed">Erreur</string>
+    <string name="errRetriving">Erreur</string>
+    <string name="err">Erreur</string>
+    <string name="disclaimer">Note: l\'application ne sera pas commencer si votre cellulaire est redémarrager</string>
+    <string name="chooseapp">Choisissez une application</string>
+    <string name="choose">Commence l\'application</string>
+    <string name="amount">Choisissez la quantité de temps</string>
+    <string name="Date">Date</string>
+    <string name="Name">Nom</string>
+    <string name="Countdown">compte à rebours</string>
+    <string name="sDate">Déterminé la date</string>
+    <string name="sTime">Déterminé le temps</string>
+    <string name="dots" translatable="false">:</string>
+</resources>
